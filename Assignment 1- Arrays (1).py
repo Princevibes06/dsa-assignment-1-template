@@ -68,5 +68,10 @@ target = 2225
 print("Most frequent student:", most_frequent_student(registrations))
 print("Unique registrations:", ordered_deduplication(registrations))
 print("First non-repeated student:", first_unique_student(registrations))
-print("Subarray with target sum exists:",
-      subarray_sum_exists(registrations, target))
+print("Subarray with target sum exists:", subarray_sum_exists(registrations, target))
+
+print("\nComplexity Analysis")
+print("Most Frequent Student -> Time: O(n), Space: O(n)")
+print("Ordered Deduplication -> Time: O(n), Space: O(n)")
+print("First Unique Student -> Time: O(n), Space: O(n)")
+print("Contiguous Subarray Sum -> Time: O(n), Space: O(n)")
