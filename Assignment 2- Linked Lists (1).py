@@ -163,3 +163,11 @@ queue.reverse_queue()
 
 print("\nQueue After Reversal:")
 queue.display_queue()
+
+print("\nComplexity Analysis")
+print("Enqueue Ticket -> O(n)")
+print("Priority Insert -> O(n)")
+print("Resolve Ticket -> O(n)")
+print("Find Middle Ticket -> O(n)")
+print("Reverse Queue -> O(n)")
+print("Display Queue -> O(n)")
